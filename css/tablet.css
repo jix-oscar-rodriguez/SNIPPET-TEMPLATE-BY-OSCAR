@@ -1,0 +1,22 @@
+.meu {
+    background-image: url(/Assets/Hamburger\ Menu.svg);
+
+}
+
+.editor {
+    display       : flex;
+    flex-direction: column-reverse;
+    align-items   : center;
+}
+
+.editor .editor__title {
+    font-size: 4rem;
+}
+
+.editor .editor__img {
+    width: 65vw;
+}
+
+.introduction .introduction__title {
+    font-size: 4.9rem;
+}

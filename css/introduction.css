@@ -1,0 +1,47 @@
+.introduction {
+    width     : 85%;
+    margin    : 8rem auto 0 auto;
+    overflow-x: hidden;
+    position  : relative;
+
+}
+
+.introduction .introduction__image {
+    width  : 83vw;
+    display: block;
+}
+
+.introduction .introduction__info {
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+    text-align    : center;
+    gap           : 2rem;
+    margin-bottom : 4rem;
+}
+
+.introduction .introduction__title {
+    font-size: 6.9rem;
+
+}
+
+
+.introduction .introduction__paragraph {
+    font-size: 2.3rem;
+    color    : var(--paragraph);
+
+}
+
+.introduction .introduction__link {
+    color           : var(--title2);
+    background-color: var(--title1);
+    padding         : 2.5rem 3.5rem;
+    border-radius   : .7rem;
+    font-size       : 2rem;
+    font-weight     : bold;
+}
+
+.introduction .introduction__link--light {
+    font-weight: 400;
+    color      : #b2b3b3;
+}

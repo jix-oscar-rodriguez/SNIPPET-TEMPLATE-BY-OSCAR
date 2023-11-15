@@ -1,0 +1,75 @@
+.editor {
+    width                : 85%;
+    margin               : 10rem auto 0 auto;
+    display              : grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap                  : 5rem;
+}
+
+.editor .editor__img {
+    width: 33vw;
+}
+
+.editor .editor__info {
+    display       : flex;
+    flex-direction: column;
+    align-items   : start;
+    gap           : 2rem;
+
+}
+
+.editor .editor__title {
+    font-size: 5rem;
+    position : relative;
+}
+
+.editor .editor__paragraph {
+    font-size: 2.3rem;
+    color    : var(--paragraph);
+}
+
+/* .editor .title__span {
+    position        : absolute;
+    right           : 0;
+    width           : 0;
+    border-left     : 1px solid #000;
+    background-color: white;
+    animation       : escribir 5s steps(30) infinite alternate;
+}
+
+.editor .title__span2 {
+    position        : absolute;
+    right           : 0;
+    width           : 0;
+    background-color: white;
+    animation       : escribir 5s steps(30) infinite alternate;
+} */
+/* 
+@keyframes escribir {
+    from {
+        width: 100%
+    }
+
+    to {
+        width: 0
+    }
+
+} */
+
+
+
+
+.editor .editor__link {
+    color           : var(--title2);
+    background-color: var(--title1);
+    padding         : 2.5rem 3.5rem;
+    border-radius   : .7rem;
+    font-size       : 2rem;
+    font-weight     : bold;
+    display         : inline;
+}
+
+.editor .editor__link--light {
+    font-weight: 400;
+    color      : #b2b3b3;
+}

@@ -1,0 +1,16 @@
+.footer{
+    width: 85%;
+    margin: 7rem auto 9rem auto;
+    font-size: 2.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer .footer__links{
+    font-weight: 600;
+    color: var(--paragraph);
+    margin: 0 2rem;
+}
+.footer .footer__options{
+    display: flex;
+}

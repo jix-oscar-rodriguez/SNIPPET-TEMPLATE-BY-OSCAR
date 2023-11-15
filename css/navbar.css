@@ -1,0 +1,32 @@
+.navbar {
+    width          : 85%;
+    margin         : 0 auto;
+    display        : flex;
+    justify-content: space-between;
+    padding        : 3.5rem 0;
+    align-items    : center;
+}
+
+.navbar .nav__options {
+    display    : flex;
+    align-items: center;
+    gap        : 3rem;
+    font-weight: 700;
+    font-size  : 2.1rem;
+}
+
+.navbar .nav__link--grey {
+    color: var(--paragraph);
+}
+
+.navbar .nav__link--white {
+    color           : var(--title2);
+    background-color: var(--title1);
+    padding         : 2.5rem 3.5rem;
+    border-radius   : .7rem;
+}
+
+.navbar .nav__link--light {
+    font-weight: 400;
+    color      : #b2b3b3;
+}
